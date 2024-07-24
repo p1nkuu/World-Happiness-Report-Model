@@ -44,3 +44,9 @@ df.drop(columns = 'country', inplace=True)
 #print(df.head())
 print(df.loc[97]['OneHot_Bangladesh']) #to check if alue is on
 #print(df.columns)
+
+
+# we arent using pandas for this since there are too many values are we are just selecting the top 70 
+#if there were smaller datas with less features for one hot, we can just use the get_dummies and then concatenete 
+
+#detecting and replacing outliers 
