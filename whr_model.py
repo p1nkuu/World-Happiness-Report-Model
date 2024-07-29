@@ -69,3 +69,8 @@ plt.show()
 # for column in df.columns:
 #     df[]
 
+# need to add the feature list
+feature_list = ['year', 'Life Ladder', 'Log GDP per capita', 'Social support', 'Freedom to make life choices', 'Generosity', 
+                'Perceptions of corruption', 'Positive affect', 'Negative affect', 'Confidence in national government', 
+                'Democratic Quality', 'Delivery Quality', 'GINI index (World Bank estimate), average 2000-15']
+df.drop
