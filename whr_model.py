@@ -59,7 +59,7 @@ column_ranges = df_summ.loc['max'] -  df_summ.loc['min']
 column_range_name = column_ranges.idxmax()
 # print('Col with largest range, ', column_range_name) #healthy life expectancy at birth
 
-df['Life Ladder'].plot.box()
+df.plot.box()
 
 plt.title('Box Plot of DataFrame')
 plt.show()
