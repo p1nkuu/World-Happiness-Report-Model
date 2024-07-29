@@ -1,0 +1,29 @@
+
+# Life Ladder:  This measure asks respondents to imagine a ladder with steps numbered from 0 at the bottom to 10 at the top, where the top of the ladder represents the best possible life for them and the bottom represents the worst possible life. 
+
+# GDP: logarithm of the GDP per capita (the total economic output of a country divided by its population, which gives an average economic producitiviy or income per person )
+
+# Social Support: percived ability of support from others in times of need. This meausre comes from survey quesions asking whether they have friends or relaives they can count on in times of trouble. A score closer to 1 indicates a higher proportion of the population experiencing strong social support, whereas a score closer to 0 indicates a lower proportion.
+
+# Healthy life expectancy at birth refers to the average number of years a newborn is expected to live in good health, free from major illnesses or disabilities
+
+# Freedom to make life choices often ranging from 0 to 1
+
+# Generosity : Have you donated money to charity in the past month?
+- Not sure about how this is scaled and measured (may leave out as I am unsure what the negative numbers mean)
+
+# Perceptions of corruption: meauses the extent to which people belive that corruption is wide spread within their government and buisness 
+    - rated on a scale from 0 - 1
+
+
+# Positive affect: refers to the frequency of positive emotions and feelings experienced by individuals 
+- 0 is no experience of positive emotions 
+- 1 is maxiumim experience of positive emotions 
+
+# negative affect is the oppositie just the frequency of negative emotions 
+
+# Confidence in the national govenement, 0 - 1
+
+
+Replacing and Detecting Outliers 
+- LIfe Ladder is ok 
