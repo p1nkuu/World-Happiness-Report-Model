@@ -3,6 +3,7 @@ import numpy as np
 import os 
 import matplotlib.pyplot as plt
 import seaborn as sns
+import scipy.stats as stats
 
 #getting tha data
 directory = "World-Happiness-Report-Model"
@@ -42,7 +43,7 @@ for value in top_70_C:
 df.drop(columns = 'country', inplace=True)
 
 #print(df.head())
-print(df.loc[97]['OneHot_Bangladesh']) #to check if alue is on
+#print(df.loc[97]['OneHot_Bangladesh']) #to check if alue is on
 #print(df.columns)
 
 
@@ -50,3 +51,21 @@ print(df.loc[97]['OneHot_Bangladesh']) #to check if alue is on
 #if there were smaller datas with less features for one hot, we can just use the get_dummies and then concatenete 
 
 #detecting and replacing outliers 
+#go through all the data and if there are too many nulls, we can drop the columns all togehter else we can winsorize 
+
+df_summ = df.describe()
+print(df_summ)
+column_ranges = df_summ.loc['max'] -  df_summ.loc['min']
+column_range_name = column_ranges.idxmax()
+# print('Col with largest range, ', column_range_name) #healthy life expectancy at birth
+
+df['Life Ladder'].plot.box()
+
+plt.title('Box Plot of DataFrame')
+plt.show()
+
+# print(df.dtypes)
+
+# for column in df.columns:
+#     df[]
+
